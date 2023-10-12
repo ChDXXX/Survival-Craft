@@ -1,0 +1,268 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 24367 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/87056/OneDrive/桌面/3702/My project (23)
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62712
+Successfully changed project path to: C:/Users/87056/OneDrive/桌面/3702/My project (23)
+C:/Users/87056/OneDrive/桌面/3702/My project (23)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 121.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/87056/OneDrive/桌面/3702/My project (23)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56624
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004679 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 90.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (566ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (423ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (117ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (229ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (91ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (90ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003759 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\87056\OneDrive\桌面\3702\My project (23)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\87056\OneDrive\桌面\3702\My project (23)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.815 seconds
+Domain Reload Profiling:
+	ReloadAssembly (816ms)
+		BeginReloadAssembly (88ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (642ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (202ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (282ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (186ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 2.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3909.
+Memory consumption went from 130.8 MB to 130.7 MB.
+Total: 6.676300 ms (FindLiveObjects: 0.632800 ms CreateObjectMapping: 0.645600 ms MarkObjects: 5.123900 ms  DeleteObjects: 0.270400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101452.324799 seconds.
+  path: Assets/square.png
+  artifactKey: Guid(7202732719eb2ae498497508af2c7853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/square.png using Guid(7202732719eb2ae498497508af2c7853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca7585ca9f3cb0b2a604f5c9dfc5e83') in 0.109367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.382222 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Fonts/LilitaOne-Regular.ttf
+  artifactKey: Guid(cadab9c07fe8444129761506daadc571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Fonts/LilitaOne-Regular.ttf using Guid(cadab9c07fe8444129761506daadc571) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6df50904acbaf7cc1bcb2690a80c5fe1') in 0.086220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.341233 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/Hexagon Flat Top.prefab
+  artifactKey: Guid(b1d4be2fbe2364516a7afb67d5c2c3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/Hexagon Flat Top.prefab using Guid(b1d4be2fbe2364516a7afb67d5c2c3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1cc4dc6fb583de87d365a9727988fc') in 0.083759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_sea.asset
+  artifactKey: Guid(391c2cb12c641430e84843df31f03246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_sea.asset using Guid(391c2cb12c641430e84843df31f03246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2f43689844a309c06d4f879ea696f6') in 0.068062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_forest.asset
+  artifactKey: Guid(5e72735dd7f934068ac04481f94f645a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_forest.asset using Guid(5e72735dd7f934068ac04481f94f645a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc0d8cbf3e44b9b90a298591f90119e') in 0.035375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_rock.asset
+  artifactKey: Guid(0e25d14fce6f947dd8b01775fa42119e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_rock.asset using Guid(0e25d14fce6f947dd8b01775fa42119e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd0814c8aa360b74ed01280900f2b21') in 0.046166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_space.asset
+  artifactKey: Guid(39f4118b3ab83461abafaeefcc0b9037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_space.asset using Guid(39f4118b3ab83461abafaeefcc0b9037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e6ab4811f74ed062d1ce852c9ef53f8') in 0.019339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_sea.asset
+  artifactKey: Guid(4fb275f39461c4cb59d852e7894488f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_sea.asset using Guid(4fb275f39461c4cb59d852e7894488f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c92f45ac02148b95cb2cd439e5251c') in 0.025882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_ice.asset
+  artifactKey: Guid(01ded5596698d4e6f86726121bdfb59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_ice.asset using Guid(01ded5596698d4e6f86726121bdfb59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b650ad198527288bae3fb14d6c8d3615') in 0.014391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_rock.asset
+  artifactKey: Guid(e5a7a00b51e944b628f827dc59617756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_rock.asset using Guid(e5a7a00b51e944b628f827dc59617756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2df94efdce20211269b89c872998093d') in 0.025306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_desert.asset
+  artifactKey: Guid(0fcad368859274122b4325bdf64981b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_common_desert.asset using Guid(0fcad368859274122b4325bdf64981b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18577abe0d4c615af7cb549df2369363') in 0.072228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_sea.asset
+  artifactKey: Guid(fa3f8cf3cdd1242b0811156fce36a750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_sea.asset using Guid(fa3f8cf3cdd1242b0811156fce36a750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e8093bebebeb861aaa7b7e8dbd91c2') in 0.027529 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_forest.asset
+  artifactKey: Guid(a74f0086314d5421ca9d7723a9f67b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_forest.asset using Guid(a74f0086314d5421ca9d7723a9f67b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140e53ef4a8b25e14ba1a1d895e49504') in 0.017272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_common_rock.asset
+  artifactKey: Guid(0e1c85c270f7d4ada9fecbe57e16c776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_common_rock.asset using Guid(0e1c85c270f7d4ada9fecbe57e16c776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a29b31bce5c8307153eb7e69eb983ae8') in 0.017722 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_space.asset
+  artifactKey: Guid(c00edcff29dae4a5aa635a573a96af01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex1_space.asset using Guid(c00edcff29dae4a5aa635a573a96af01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aca9bc97f80bdf8328094b538c967a6') in 0.017613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_volcano.asset
+  artifactKey: Guid(b9647d8520a994378a5c7e324627b553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Kit Pro - Kawaii/Levels Tile Map/level_hex2_volcano.asset using Guid(b9647d8520a994378a5c7e324627b553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ab0e86bcd86b89f5d79aa35737150c') in 0.022608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.725561 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat.png
+  artifactKey: Guid(0ac691dd25a276d468ee89cf1948229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat.png using Guid(0ac691dd25a276d468ee89cf1948229d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6f69572e61db6c9580d29f835f559d') in 0.018740 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

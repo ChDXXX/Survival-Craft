@@ -1,0 +1,547 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.7f1 (24e8595d6d43) revision 2418777'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Core' Language: 'zh' Physical Memory: 24367 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/87056/OneDrive/桌面/3702/My project (23)
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+62712
+Successfully changed project path to: C:/Users/87056/OneDrive/桌面/3702/My project (23)
+C:/Users/87056/OneDrive/桌面/3702/My project (23)
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 88.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.7f1 (24e8595d6d43)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/87056/OneDrive/桌面/3702/My project (23)/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 Ti (ID=0x2782)
+    Vendor:   NVIDIA
+    VRAM:     12010 MB
+    Driver:   31.0.15.3758
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004147 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+Domain Reload Profiling:
+	ReloadAssembly (591ms)
+		BeginReloadAssembly (80ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (428ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (106ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (247ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003956 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\87056\OneDrive\桌面\3702\My project (23)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\87056\OneDrive\桌面\3702\My project (23)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (801ms)
+		BeginReloadAssembly (86ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (633ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (296ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (67ms)
+				ProcessInitializeOnLoadAttributes (191ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3450 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.2 KB). Loaded Objects now: 3909.
+Memory consumption went from 130.8 MB to 130.7 MB.
+Total: 6.449600 ms (FindLiveObjects: 0.570300 ms CreateObjectMapping: 0.314500 ms MarkObjects: 5.323800 ms  DeleteObjects: 0.237900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101464.588748 seconds.
+  path: Assets/Thaleah_PixelFont/Materials/ThaleahFat.mat
+  artifactKey: Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Thaleah_PixelFont/Materials/ThaleahFat.mat using Guid(43d59b5c638b0664db55f3a4e4d130ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d94b3e3c1ca958857f7d90f9d27db82') in 0.121325 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004480 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\87056\OneDrive\桌面\3702\My project (23)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\87056\OneDrive\桌面\3702\My project (23)\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.762 seconds
+Domain Reload Profiling:
+	ReloadAssembly (763ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (585ms)
+			LoadAssemblies (70ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (179ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (280ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (183ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3423 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.6 KB). Loaded Objects now: 3952.
+Memory consumption went from 133.3 MB to 133.2 MB.
+Total: 5.383500 ms (FindLiveObjects: 0.549600 ms CreateObjectMapping: 0.474500 ms MarkObjects: 4.199800 ms  DeleteObjects: 0.157400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 123.549292 seconds.
+  path: Assets/Materials/New Render Texture.renderTexture
+  artifactKey: Guid(7181efcfa1ca75d42be312d79e6f4c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/New Render Texture.renderTexture using Guid(7181efcfa1ca75d42be312d79e6f4c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4a2296d87c567fd689fb153067114c0') in 0.055126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Materials/pngegg (1).png
+  artifactKey: Guid(0ea318ccffabee740adf3006ef158ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/pngegg (1).png using Guid(0ea318ccffabee740adf3006ef158ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f9bd0460c16e8638290eda7fd451ab') in 0.110127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.682212 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Demo Scenes/Terrain/terrain-rock-layer.terrainlayer
+  artifactKey: Guid(af7c2009316ea4046bd2579fcdb71202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Demo Scenes/Terrain/terrain-rock-layer.terrainlayer using Guid(af7c2009316ea4046bd2579fcdb71202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d21527f0acc1d65dd7ed50bae4249ba') in 0.072710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.872152 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/book-evil.fbx
+  artifactKey: Guid(466cf27f0dcd594469efc9bc9332204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/book-evil.fbx using Guid(466cf27f0dcd594469efc9bc9332204f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f6288fb5944101995fb7ebbacdf4034') in 0.299287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gate-graveyard.fbx
+  artifactKey: Guid(eab25d0fbde50624694d6a47f3a5dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gate-graveyard.fbx using Guid(eab25d0fbde50624694d6a47f3a5dbe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f891239eb2effa73da024ae9ebf1122') in 0.089594 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/hole-graveyard.fbx
+  artifactKey: Guid(d7e5348ac2214844895c967f1b088fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/hole-graveyard.fbx using Guid(d7e5348ac2214844895c967f1b088fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fa110f675c1b7e9df88c0ca0ed2839') in 0.089782 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-classic-broken.fbx
+  artifactKey: Guid(fdec8e5b6b6bb784ba3d5d435ba8611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-classic-broken.fbx using Guid(fdec8e5b6b6bb784ba3d5d435ba8611e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '072f49aebcf9dbea6b3a7a9b0ccaf5e4') in 0.029402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-small-a.fbx
+  artifactKey: Guid(8cafeb9c36c76844d80e57a9527c76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-small-a.fbx using Guid(8cafeb9c36c76844d80e57a9527c76db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1205e74fe6311eca49f6a3853e666891') in 0.035590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/shovel-gravedigger.fbx
+  artifactKey: Guid(b09dfbfcb65882440a52388a52b816f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/shovel-gravedigger.fbx using Guid(b09dfbfcb65882440a52388a52b816f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b19e71fc4d865cb76f16e0d67266e13b') in 0.030958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-carved-c.fbx
+  artifactKey: Guid(d793675a24b3a71478fb2f12301c9d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-carved-c.fbx using Guid(d793675a24b3a71478fb2f12301c9d83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22219fa0df5c6efd965c345f9f5e24ba') in 0.031244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/candle-stick-b-lit.fbx
+  artifactKey: Guid(e8b5b2b6e90c2bc4a959290fffd32278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/candle-stick-b-lit.fbx using Guid(e8b5b2b6e90c2bc4a959290fffd32278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96465d7f50ab03916ea28e6042cde871') in 0.027130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/candle-skull-unlit.fbx
+  artifactKey: Guid(e517ff7d524b4ca4eab9675efc72edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/candle-skull-unlit.fbx using Guid(e517ff7d524b4ca4eab9675efc72edf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33167a245e62ce34caacb0efb43adae7') in 0.027492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-carved-b.fbx
+  artifactKey: Guid(70fcf161a16492f419aadeef2009d9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-carved-b.fbx using Guid(70fcf161a16492f419aadeef2009d9c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eca133f85c6bc2b1102bcd4452ca7396') in 0.031708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/lantern-street-fixed-halloween.fbx
+  artifactKey: Guid(8e204af8681eb324b9231b09940ee91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/lantern-street-fixed-halloween.fbx using Guid(8e204af8681eb324b9231b09940ee91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66840b865f2bab883efaab322bdc7a1b') in 0.070693 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-candy.fbx
+  artifactKey: Guid(6c0e584b97c9c0e479d39c9e403d176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-candy.fbx using Guid(6c0e584b97c9c0e479d39c9e403d176b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f29855a0ca3284b29a7a0e868fdfa489') in 0.049084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/guillotine.fbx
+  artifactKey: Guid(b3de28280c49c4044855aa4618a8c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/guillotine.fbx using Guid(b3de28280c49c4044855aa4618a8c423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9177ea7aa5c073261874c90e9acd8318') in 0.031228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-cross.fbx
+  artifactKey: Guid(14aeba4054e1354408fc8b497eae6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-cross.fbx using Guid(14aeba4054e1354408fc8b497eae6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8186d1eba72c8132cf804f2a18f47a83') in 0.043153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/string-of-flags-3m.fbx
+  artifactKey: Guid(ffda131c09f657840b8a8c6a3e4ffe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/string-of-flags-3m.fbx using Guid(ffda131c09f657840b8a8c6a3e4ffe3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c91620f3026ebd4a72df79c5d7a3d44') in 0.027976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/stump-possesed.fbx
+  artifactKey: Guid(3f83b87988a71504da83be8676319de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/stump-possesed.fbx using Guid(3f83b87988a71504da83be8676319de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e55e1c8ada5b1dcb2b498093a9c9ece') in 0.023761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/mushroom-magical-champignon-b.fbx
+  artifactKey: Guid(384f07b4b83dba44a8bcdc290897a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/mushroom-magical-champignon-b.fbx using Guid(384f07b4b83dba44a8bcdc290897a09c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a728d8572c4bdb6048b2ca4e6a385356') in 0.023328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-tower.fbx
+  artifactKey: Guid(a77653da149ca8644867707b9dca9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/gravestone-old-tower.fbx using Guid(a77653da149ca8644867707b9dca9198) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9e283afcc644e6179bcdd57c05b553') in 0.024019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-carved-lit-a.fbx
+  artifactKey: Guid(7fe7148a753dd2c44bb87875e0bc6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/pumpkin-carved-lit-a.fbx using Guid(7fe7148a753dd2c44bb87875e0bc6f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16210927504d98acfd37cb79549b3cc4') in 0.023114 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/mushroom-magical-champignon-a.fbx
+  artifactKey: Guid(d8db764aa4329e64f8db533b55235176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/mushroom-magical-champignon-a.fbx using Guid(d8db764aa4329e64f8db533b55235176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45ad2f34e8441547458f45283b11873') in 0.040134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/polyperfect/Poly Halloween/- Meshes/Halloween/candle-spine-unlit.fbx
+  artifactKey: Guid(efae5a5999301a14d9a614a54b04e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/polyperfect/Poly Halloween/- Meshes/Halloween/candle-spine-unlit.fbx using Guid(efae5a5999301a14d9a614a54b04e337) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33af7dd68d98b69d31e0ca3cc635cb62') in 0.033007 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.533516 seconds.
+  path: Assets/MedievalFantasyWorld/_Common/Mat_Palette.mat
+  artifactKey: Guid(921a757f0d1b9534b86125469192079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalFantasyWorld/_Common/Mat_Palette.mat using Guid(921a757f0d1b9534b86125469192079b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd19e8cb26542af17159b090724b3b994') in 0.080163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/MedievalFantasyWorld/_Common/Tex_Palette.png
+  artifactKey: Guid(1dd09030a8e55b34d959873811200db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalFantasyWorld/_Common/Tex_Palette.png using Guid(1dd09030a8e55b34d959873811200db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d412dfb703cd90222a4bed22508aad') in 0.052131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.312866 seconds.
+  path: Assets/MedievalFantasyWorld/FireFiend/Sourcefiles/Mat_Lava.mat
+  artifactKey: Guid(6729549bbc8cc294e81bc98acc896c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MedievalFantasyWorld/FireFiend/Sourcefiles/Mat_Lava.mat using Guid(6729549bbc8cc294e81bc98acc896c71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e852994fd67b0810a47cb96cfda84d51') in 0.021792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.361705 seconds.
+  path: Assets/Forest Creatures Pack/Demo Assets/Forest Creatures PPP.asset
+  artifactKey: Guid(ca7a06edb5eb0cf43b2ce9d61a13d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Forest Creatures Pack/Demo Assets/Forest Creatures PPP.asset using Guid(ca7a06edb5eb0cf43b2ce9d61a13d0be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ab8782bb615d1d9f5bbf5de2d377e17') in 0.015432 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.479010 seconds.
+  path: Assets/Fonts/Pixel Font - Tripfive/Fonts/Tripfive-HS.fontsettings
+  artifactKey: Guid(9ebb6ca5ee4094addac513cf8528f1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pixel Font - Tripfive/Fonts/Tripfive-HS.fontsettings using Guid(9ebb6ca5ee4094addac513cf8528f1e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f8b48d4f4890eb160648f71262c1d0') in 0.009556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.461410 seconds.
+  path: Assets/Fonts/Pixel Font - Tripfive/Textures & Materials/Tripfive-EX.png
+  artifactKey: Guid(c7fc78e82ec0e4f8d94421658d7e9d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pixel Font - Tripfive/Textures & Materials/Tripfive-EX.png using Guid(c7fc78e82ec0e4f8d94421658d7e9d69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0e677cbcb37de86ca53ad3f6626864') in 0.025573 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Fonts/Pixel Font - Tripfive/Textures & Materials/Tripfive-OL.png
+  artifactKey: Guid(7f4dc74417f0147a5804b21c72feb54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fonts/Pixel Font - Tripfive/Textures & Materials/Tripfive-OL.png using Guid(7f4dc74417f0147a5804b21c72feb54c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd293f9f371f3ff62f186e21185df463a') in 0.030706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.588438 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
+  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f567fd92d1673c91fa1b7820029457') in 0.300121 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
+  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfec6adb640b4a29b0f7c0fcac9e692') in 0.083716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
+  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae94cc6ba8e77274016ea76466ed36cc') in 0.034582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.099090 seconds.
+  path: Assets/Buttons/PNG/2button_blue_middle.png
+  artifactKey: Guid(2b6e58e066a469c499d930cd4a4ceade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/2button_blue_middle.png using Guid(2b6e58e066a469c499d930cd4a4ceade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c51c5d289a8f3aa81c629d743e1e40') in 0.034878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Buttons/PNG/19bttn-midl.png
+  artifactKey: Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/19bttn-midl.png using Guid(aa3bf53c498deb44b80ad60af801942c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854181f95332d14b0b60e70bf733922e') in 0.027126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Buttons/PNG/11Button_Midl_Blue.png
+  artifactKey: Guid(779b95c4bc6a9534299af022ce6c4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/11Button_Midl_Blue.png using Guid(779b95c4bc6a9534299af022ce6c4d5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ecc5711293e529de4a82605db53992') in 0.027299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Buttons/PNG/7button_green_middle.png
+  artifactKey: Guid(b8ede16274078e4479b1a6b2d1e5ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/7button_green_middle.png using Guid(b8ede16274078e4479b1a6b2d1e5ea06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1c4c0477fe4b1bb5df7b7157c964e2f') in 0.030969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Buttons/PNG/8Button_Midl_Red.png
+  artifactKey: Guid(36fe1d766c5df3343b1eb1b5d524afbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/8Button_Midl_Red.png using Guid(36fe1d766c5df3343b1eb1b5d524afbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca7f836d8864ef1891afe6564c4455d') in 0.041258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Buttons/PNG/22Button_Midl_Green.png
+  artifactKey: Guid(bf625ae84f769384fb0cd1cc52d14971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/22Button_Midl_Green.png using Guid(bf625ae84f769384fb0cd1cc52d14971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c9d936977d351e52f2f7e8ec624f4e3') in 0.025071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Buttons/PNG/25Button_Long_Green.png
+  artifactKey: Guid(75b6e4700f21ab04198e8b1f956968a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Buttons/PNG/25Button_Long_Green.png using Guid(75b6e4700f21ab04198e8b1f956968a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbf85e10dab31471d32532629f60e999') in 0.025383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.578713 seconds.
+  path: Assets/Audio/guns/cocked.wav
+  artifactKey: Guid(e7632c6401c09437e83de45d33c5858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/guns/cocked.wav using Guid(e7632c6401c09437e83de45d33c5858e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb45c8b5dfee06542adb26102a7d2e0') in 0.063402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Audio/guns/they shoot.wav
+  artifactKey: Guid(cef0fa03af5b747f0abe82cde0b2bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/guns/they shoot.wav using Guid(cef0fa03af5b747f0abe82cde0b2bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c92fc32f9e223d5663377e9f620beb6') in 0.034549 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.437483 seconds.
+  path: Assets/Audio/misc bangs/bn 7.wav
+  artifactKey: Guid(7ff3494e5254748538d75169821087d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/misc bangs/bn 7.wav using Guid(7ff3494e5254748538d75169821087d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e95908cbb9a1adeb0526e2bac75a77b2') in 0.035239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Audio/misc bangs/bn7.wav
+  artifactKey: Guid(6e31a67604ba2400ca2928d8d6a45bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/misc bangs/bn7.wav using Guid(6e31a67604ba2400ca2928d8d6a45bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1155742d2cf48c587746c28a38eb5bb') in 0.021719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.740620 seconds.
+  path: Assets/Audio/RPG Background Muscis/Battle/battle_02.mp3
+  artifactKey: Guid(31bebe6ba85e3db41b82d80cba2070a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/RPG Background Muscis/Battle/battle_02.mp3 using Guid(31bebe6ba85e3db41b82d80cba2070a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '027ee2a933ce6cd09fa6fdb74cf7c132') in 0.034350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Audio/RPG Background Muscis/Battle/battle_08.mp3
+  artifactKey: Guid(6f76a74246fd558498d03be5349dddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/RPG Background Muscis/Battle/battle_08.mp3 using Guid(6f76a74246fd558498d03be5349dddb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96a34cbe53e2b28e07295f46f7c5f6a') in 0.020167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.248187 seconds.
+  path: Assets/Audio/RPG Background Muscis/Cities & Towns/city_02.mp3
+  artifactKey: Guid(c35cacf4e02a97c41b52ba5e9c120c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/RPG Background Muscis/Cities & Towns/city_02.mp3 using Guid(c35cacf4e02a97c41b52ba5e9c120c5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb8b429d28f60ad5d2ea9453792677e') in 0.035272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Audio/RPG Background Muscis/Cities & Towns/city_06.mp3
+  artifactKey: Guid(be9f244d2fb1ecb42be4f811bedacfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/RPG Background Muscis/Cities & Towns/city_06.mp3 using Guid(be9f244d2fb1ecb42be4f811bedacfa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d99c1d9e0a0881ee529ac14aecc01f') in 0.034191 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.338246 seconds.
+  path: Assets/Audio/RPG Background Muscis/Menu/menu_02.mp3
+  artifactKey: Guid(fed096858503951488bf8f406e8f4532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/RPG Background Muscis/Menu/menu_02.mp3 using Guid(fed096858503951488bf8f406e8f4532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd1f29379a708b774dd2aa872db0929') in 0.034076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Audio/RPG Background Muscis/Menu/menu_06.mp3
+  artifactKey: Guid(95d467f44d1822f428de7d085e9da95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Audio/RPG Background Muscis/Menu/menu_06.mp3 using Guid(95d467f44d1822f428de7d085e9da95b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12adfde4e07c8b7bd963030574c0c475') in 0.028554 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.589794 seconds.
+  path: Assets/Assets/npcfire.png
+  artifactKey: Guid(18feecb10c088e4409f0224caf10dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/npcfire.png using Guid(18feecb10c088e4409f0224caf10dc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727505738f09dbfa651e17e69e3a4a55') in 0.045050 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.558138 seconds.
+  path: Assets/Assets/_TerrainAutoUpgrade/layer_Ground2cc0f254a2c535401.terrainlayer
+  artifactKey: Guid(2b576357ccf60434da1686ae23471fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets/_TerrainAutoUpgrade/layer_Ground2cc0f254a2c535401.terrainlayer using Guid(2b576357ccf60434da1686ae23471fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79ecdb5a9d3a5006a3b1454cc8d79fc7') in 0.022058 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
